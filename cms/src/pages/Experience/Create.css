@@ -1,0 +1,262 @@
+.form-dos-img {
+    background-image: url("https://media.discordapp.net/attachments/998310583042572328/1020768747167957082/unknown.png");
+    background-size: cover;
+    margin-top: 2rem;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.form-dos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-dos-title {
+    margin-top: 2rem;
+    font-size: 26px;
+    margin-left: 15rem;
+
+}
+
+
+
+.for-exp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+    gap: 2rem;
+    background-color: rgba(24, 21, 21, 0.82);
+    width: 60rem;
+    margin-left: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.form-dos-input {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.form-dos-input input {
+    width: 45rem;
+    height: 2rem;
+    margin-left: 7rem;
+    font-size: 22px;
+}
+
+.form-dos-input label {
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+}
+
+/*----------------------*/
+.form-dos-input-description {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-dos-input-description textarea {
+    width: 45rem;
+    height: 2rem;
+    margin-left: 7rem;
+    font-size: 22px;
+}
+
+.form-dos-input-description label {
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+}
+
+
+
+/*--------------------------------------------------*/
+.button-tres {
+    border: solid 2px #fff;
+    outline: none;
+    padding: 0.5rem;
+    width: 12rem;
+    background: transparent;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 20px;
+    filter: blur(0.2px);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    margin-left: 24rem;
+
+}
+
+.button-tres :hover {
+    color: rgb(249, 7, 7);
+    transform: scale(6.8);
+}
+
+/*---------------------------------------------------------------------*/
+@media(max-width: 992px) {
+    .for-exp {
+        font-size: 1.2rem;
+        width: 35rem;
+        margin-left: 13rem;
+
+    }
+
+    .form-dos-title {
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .form-dos-input input {
+        width: 25rem;
+        height: 1.8rem;
+        margin-left: 5rem;
+        font-size: 19px;
+    }
+
+    .form-dos-input label {
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+
+    .form-dos-input-description textarea {
+        width: 25rem;
+        height: 1.8rem;
+        margin-left: 5rem;
+        font-size: 18px;
+    }
+
+    .form-dos-input-description label {
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+    /*--------------------------------------------------*/
+    .button-tres {
+        width: 10rem;
+        font-size: 17px;
+        margin-left: 12rem;
+
+    }
+
+}
+
+
+
+@media(max-width: 768px) {
+    .for-exp {
+        font-size: 1.2rem;
+        width: 35rem;
+        margin-left: 7rem;
+
+    }
+
+    .form-dos-title {
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .form-dos-input input {
+        width: 25rem;
+        height: 1.8rem;
+        margin-left: 5rem;
+        font-size: 19px;
+    }
+
+    .form-dos-input label {
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+
+    .form-dos-input-description textarea {
+        width: 25rem;
+        height: 1.8rem;
+        margin-left: 5rem;
+        font-size: 18px;
+    }
+
+    .form-dos-input-description label {
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+
+    /*--------------------------------------------------*/
+    .button-tres {
+        width: 10rem;
+        font-size: 17px;
+        margin-left: 12rem;
+
+    }
+}
+
+
+
+
+
+
+@media(max-width: 576px) {
+    .for-exp {
+        width: 28rem;
+        margin-left: 4rem;
+    }
+
+
+    .form-dos-input input {
+        width: 18rem;
+        height: 1.7rem;
+        margin-left: 5rem;
+        font-size: 18px;
+    }
+
+    .form-dos-input label {
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+    .form-dos-input-description textarea {
+        width: 20rem;
+        height: 1.7rem;
+        margin-left: 5rem;
+        font-size: 15px;
+    }
+
+    .form-dos-input-description label {
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+    .button-tres {
+        width: 10rem;
+        font-size: 17px;
+        margin-left: 8rem;
+
+    }
+}
+
+
+
+@media(max-width: 480px) {
+    .for-exp {
+        width: 28rem;
+        margin-left: 1rem;
+    }
+
+    .form-dos-title {
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}

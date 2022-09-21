@@ -1,0 +1,208 @@
+.home-title {
+    color: rgb(65, 61, 61);
+    border-top: 1px solid rgb(54, 50, 50);
+    text-align: center;
+    height: 180px;
+    margin-top: 1rem;
+
+}
+
+.home-title h1 {
+    margin-top: 2rem;
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.home-title h2 {
+    font-size: 1.8rem;
+}
+
+/*---------------------------------------------*/
+
+.container-general {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 6rem;
+
+}
+
+
+
+.Exp-container {
+    background-image: url("https://cdn.discordapp.com/attachments/998310583042572328/1020361778787528785/unknown.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 3rem;
+
+}
+
+
+
+
+.Exp-container h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.Exp-container img {
+    object-fit: cover;
+    width: 70%;
+}
+
+/*-------------------------------------------------------------*/
+
+.pdis-container {
+    background-image: url("https://cdn.discordapp.com/attachments/998310583042572328/1020325306415976468/unknown.png");
+    background-position: center calc(-210px);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+
+}
+
+/*--------botones---------*/
+
+
+.button-uno {
+    border: solid 2px #fff;
+    outline: none;
+    padding: 0.5rem;
+    width: 12rem;
+    background: transparent;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    filter: blur(0.2px);
+    margin: 2rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+
+}
+
+.button-uno :hover {
+
+    transform: scale(6.8);
+}
+
+
+
+.pdis-container h2 {
+    color: #fff;
+}
+
+/*-----------------------medias----------------------------------------------*/
+
+
+@media (max-width: 992px) {
+
+    .container-general {
+
+        margin-top: 1rem;
+        gap: 2rem;
+    }
+
+    .Exp-container {
+        width: 70vh;
+    }
+
+    .pdis-container {
+        width: 70vh;
+    }
+
+
+    .button-experience {
+        display: flex;
+    }
+
+    .button-pdi {
+        display: flex;
+    }
+
+
+    .button-uno {
+        width: 10rem;
+        font-size: 20px;
+    }
+
+    .pdis-container {
+
+        background-position: center calc(-280px);
+
+    }
+
+
+}
+
+
+@media(max-width: 768px) {
+    .container-general {
+
+        margin-top: -1rem;
+        gap: 1rem;
+    }
+
+    .home-title h1 {
+        font-size: 2rem;
+    }
+
+    .home-title h2 {
+        font-size: 1.4rem;
+    }
+
+    .Exp-container {
+        width: 50vh;
+
+    }
+
+    .pdis-container {
+        background-position: center calc(-200px);
+        background-size: 200%;
+        width: 50vh;
+
+    }
+
+    .button-uno {
+        width: 7rem;
+        font-size: 17px;
+    }
+
+}
+
+
+@media(max-width: 576px) {
+    .container-general {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+
+@media(max-width: 480px) {
+    .home-title h1 {
+        font-size: 1.7rem;
+    }
+
+    .home-title h2 {
+        font-size: 1.2rem;
+    }
+}

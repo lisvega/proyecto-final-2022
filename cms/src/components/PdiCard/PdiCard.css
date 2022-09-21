@@ -1,0 +1,85 @@
+.pdicard {
+    height: 970px;
+    width: 350px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 3rem;
+    word-spacing: 0.25em;
+    margin-bottom: 0;
+}
+
+.img-pdi-dos img {
+    margin-top: 0.6rem;
+    border: solid black 1px;
+    margin-left: 15px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+.pdi-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 620px;
+    font-size: 20px;
+
+}
+
+
+
+.pdi-p h3 {
+    margin-top: 10px;
+    padding-bottom: 9px;
+}
+
+.INFO {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 8px;
+    height: 600px;
+
+}
+
+.span-uno {
+    font-weight: 700;
+}
+
+/*------------------------------------*/
+.button-pdi-card {
+    border: solid 2px rgb(153, 145, 145);
+    outline: none;
+    padding: 0.3rem;
+    width: 7rem;
+    background: transparent;
+    border-radius: 2rem;
+    color: rgb(153, 145, 145);
+    font-weight: 800;
+    font-size: 20px;
+    filter: blur(0.2px);
+    margin: 2rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+
+}
+
+
+
+.button-pdi-card :hover {
+
+    transform: scale(6.8);
+}
+
+.container-button-pdicard {
+    display: flex;
+
+}
